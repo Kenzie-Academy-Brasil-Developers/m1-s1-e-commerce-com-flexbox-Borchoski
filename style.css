@@ -104,4 +104,5 @@ align-items: center;
 .card figure{
     max-width: 284px;
     overflow: hidden;
+    text-align: center;
 }
