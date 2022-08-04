@@ -58,19 +58,22 @@ align-items: center;
     border-radius: 4px;
     border:  none;
 }
+/* Alteração aqui*/
+.containerVitrine .container{
+    max-width: 1200px; 
+    display: flex;
+    margin: 0 auto;
+}    
 
 .itens-loja{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 100%;
     background-color: #ced4da;
     text-decoration: none;
     list-style: none;
     margin-top: 25px;
-    
-
 }
 .card{
     background-color: white;
@@ -80,10 +83,7 @@ align-items: center;
     padding: 10px;
     border-radius: 8px;
     margin-top: auto;
-    height: 310px;
-    
-
-    
+    height: 310px;    
 }
 .card button{
     text-decoration: none;
@@ -95,11 +95,6 @@ align-items: center;
     align-items: center;
     border-radius: 4px;
     border:  none;
-    
-    
-    
-    
-
 }
 .card figure{
     max-width: 284px;
